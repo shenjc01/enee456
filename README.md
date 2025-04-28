@@ -4,11 +4,10 @@ This project implements a simple and intuitive **Visual Cryptography Generator**
 
 Built fully with **HTML**, **CSS**, and **JavaScript**, and hosted using **GitHub Pages**.
 
-## 🚀 Live Demo
+## Live Demo
+[Click here to try it out!](https://shenjc01.github.io/visual_cryptography_/)  
 
-👉 [Click here to try it out!](https://shenjc01.github.io/visual_cryptography_/)  
-
-## 🎯 Features
+## Features
 
 - **Upload your own image** (JPEG, PNG supported)
 - **Choose encryption mode**:
@@ -22,7 +21,7 @@ Built fully with **HTML**, **CSS**, and **JavaScript**, and hosted using **GitHu
 - **Responsive, clean, and modern** interface
 - Fully **client-side** (no server needed, 100% privacy)
 
-## 🛠️ How It Works
+## How It Works
 
 - In **Black-and-White mode**:
   - Image is binarized.
