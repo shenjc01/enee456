@@ -51,8 +51,11 @@ function generateBW(img) {
     for (let y = 0; y < h; y++) {
         for (let x = 0; x < w; x++) {
             const i = (y * w + x) * 4;
-            const brightness = (imgData.data[i] + imgData.data[i+1] + imgData.data[i+2]) / 3;
-            const isWhite = brightness > 128;
+            const r = imgData.data[i];
+            const g = imgData.data[i+1];
+            const b = imgData.data[i+2];
+            const luminance = 0.299 * r + 0.587 * g + 0.114 * b;
+            const isWhite = luminance > 128;
 
             const pattern = Math.random() < 0.5 ? [[1,0],[0,1]] : [[0,1],[1,0]];
             let p1 = pattern;
